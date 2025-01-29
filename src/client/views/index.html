@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel App</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Travel App</h1>
+      <form id="travelForm">
+        <input type="text" id="city" placeholder="Enter a city" required />
+        <input type="date" id="travelDate" required />
+        <button type="submit">Search</button>
+      </form>
+      <div id="result">
+        <div class="container">
+          <h2>City Information</h2>
+          <p class="info"><strong>City:</strong> <span id="output-city">Loading...</span></p>
+          <p class="info"><strong>Country:</strong> <span id="output-country">Loading...</span></p>
+          <p class="info"><strong>Weather:</strong> <span id="output-weather">Loading...</span></p>
+          <p class="info"><strong>Date:</strong> <span id="output-date">Loading...</span></p>
+          <img id="output-image" alt="City Image">
+          <button id="remove-trip">Remove Trip</button>
+      </div>
+  
+      </div>
+    </div>
+  </body>
+</html>
