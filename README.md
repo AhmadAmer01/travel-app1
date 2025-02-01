@@ -13,3 +13,7 @@ A web application that provides weather forecasts and relevant images for a chos
 Root ├── package.json ├── webpack.config.js ├── .env ├── src │ ├── client │ │ ├── index.js │ │ ├── js │ │ │ └── handleSubmit.js │ │ ├── styles │ │ │ └── style.scss │ │ └── views │ │ └── index.html │ └── server │ └── server.js
 Prerequisites
 Node.js (v20.x)
+
+run the app :
+npm run start -to run the server localhost:3000
+npm run dev - to run the client fronend : http://192.168.1.7:8080/
